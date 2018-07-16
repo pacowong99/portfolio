@@ -8,25 +8,25 @@ body {
 .header {
 
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 10%;
     padding-right: 10%;
-    
-    background-color:rgb(245, 245, 245);
 }
 
 .section {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    height: 600px;
 }
 
 .hoverinfo {
     height: 100%;
     width: 100%;
     background: linear-gradient(45deg, rgba(0,210,255,0.9) 0%, rgba(58,123,213,0.9) 100%);    color: white;
+
+    text-shadow: 0px 3px 6px #00000066;
 
     text-align: center;
     color: white;
@@ -50,6 +50,13 @@ body {
     padding-bottom: 100px;
 }
 
+.long {
+    height: 800px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
 .links {
     color: rgba(58,123,213,1) !important;
     font-weight: bold;
@@ -70,6 +77,23 @@ body {
     color: rgb(20, 63, 122) !important;
 }
 
+.caption {
+    width: 100%;
+    padding-top: 710px;
+}
+
+.hero {
+    height: 600px;
+    padding-top: 100px;
+}
+
+.banner {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 h2 {
     font-size: 44px;
     color: rgba(58,123,213,1);
@@ -88,9 +112,8 @@ h3 {
 h4{
     padding: 0;
     margin: 0;
-    padding-top: 160px;
+    padding-top: 200px;
     font-size: 50px;
-    text-shadow: 0px 3px 6px #00000066;
 }
 
 h5 {
@@ -103,6 +126,13 @@ h5 {
     text-shadow: 0px 3px 6px #00000066;
 
     line-height: 2;
+}
+
+p {
+    font-size: 18px;
+    color: #888888;
+    margin: 0px;
+    line-height: 1.5;
 }
 
 a {
