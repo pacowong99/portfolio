@@ -20,7 +20,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 500px;
 }
 
 .hoverinfo {
@@ -74,6 +74,7 @@ h2 {
     font-size: 44px;
     color: rgba(58,123,213,1);
     margin-top: 0px;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -87,7 +88,7 @@ h3 {
 h4{
     padding: 0;
     margin: 0;
-    padding-top: 250px;
+    padding-top: 160px;
     font-size: 50px;
     text-shadow: 0px 3px 6px #00000066;
 }
