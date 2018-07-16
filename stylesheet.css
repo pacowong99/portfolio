@@ -94,6 +94,23 @@ body {
     background-position: center;
 }
 
+.beta {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+
+    transition: color .2s ease-in-out, border-bottom .2s ease-in-out;
+
+    border-bottom: 2px white solid;
+    padding-bottom: 2px;  
+
+}
+
+.beta:hover {
+    color: rgb(20, 63, 122) !important;
+    border-bottom: 2px rgb(20, 63, 122) solid;
+}
+
 h2 {
     font-size: 44px;
     color: rgba(58,123,213,1);
@@ -110,9 +127,10 @@ h3 {
 }
 
 h4{
-    padding: 0;
+    padding: 20px;
     margin: 0;
     padding-top: 200px;
+
     font-size: 50px;
 }
 
@@ -128,6 +146,17 @@ h5 {
     line-height: 2;
 }
 
+h6 {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+
 p {
     font-size: 18px;
     color: #888888;
@@ -137,4 +166,37 @@ p {
 
 a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .long {
+        height: 500;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .caption {
+        padding-top: 335px;
+    }
+
+    .banner {
+        height: 300px;
+    }
+
+    .section {
+        height: 400px;
+    }
+
+    h4 {
+        padding-top: 80px;
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
