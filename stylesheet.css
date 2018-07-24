@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamThin.ttf);
+    src: url(/fonts/GothamThin.TTF);
     font-weight: 100;
 }
 
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamLight.ttf);
+    src: url(/fonts/GothamLight.OTF);
     font-weight: 300;
 }
 
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamBold.ttf);
+    src: url(/fonts/GothamBold.TTF);
     font-weight: 500;
 }
 
@@ -36,7 +36,7 @@
 
 @font-face {
     font-family: "Gotham";
-    src: url(fonts/GothamUltra.ttf);
+    src: url(fonts/GothamUltra.TTF);
     font-weight: 700;
 }
 
