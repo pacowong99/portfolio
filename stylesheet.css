@@ -1,47 +1,47 @@
 @font-face {
-    font-family: Gotham;
+    font-family: "Gotham";
     src: url(/fonts/GothamThin.ttf);
     font-weight: 100;
 }
 
 @font-face {
-    font-family: Gotham;
+    font-family: "Gotham";
     src: url(/fonts/GothamXLight.ttf);
     font-weight: 200;
 }
 
 @font-face {
-    font-family: Gotham;
+    font-family: "Gotham";
     src: url(/fonts/GothamLight.ttf);
     font-weight: 300;
 }
 
 @font-face {
-    font-family: Gotham;
+    font-family: "Gotham";
     src: url(/fonts/GothamMedium.ttf);
     font-weight: 400;
 }
 
 @font-face {
-    font-family: Gotham;
+    font-family: "Gotham";
     src: url(/fonts/GothamBold.ttf);
     font-weight: 500;
 }
 
 @font-face {
-    font-family: Gotham;
+    font-family: "Gotham";
     src: url(/fonts/GothamBlack.ttf);
     font-weight: 600;
 }
 
 @font-face {
-    font-family: Gotham;
+    font-family: "Gotham";
     src: url(fonts/GothamUltra.ttf);
     font-weight: 700;
 }
 
 body {
-    font-family: Gotham;
+    font-family: "Gotham";
     padding: 0;
     margin: 0;
     background-color:white;
@@ -228,7 +228,6 @@ body {
 
 
 h2 {
-    font-family: Gotham;
     font-size: 50px;
     color:#4a4a4a;
     margin-top: 0px;
@@ -237,7 +236,6 @@ h2 {
 }
 
 h3 {
-    font-family: Gotham;
     color: gray;
     font-weight: 100;
     font-size: 16px;
@@ -246,7 +244,6 @@ h3 {
 }
 
 h4{
-    font-family: Gotham;
     padding: 20px;
     margin: 0;
     padding-top: 200px;
@@ -256,7 +253,6 @@ h4{
 }
 
 h5 {
-    font-family: Gotham;
     font-weight: 300;
     font-size: 20px;
 
@@ -281,7 +277,6 @@ h6 {
 }
 
 p {
-    font-family: Gotham;
     font-size: 18px;
     color: #555d6d;
     margin: 0px;
@@ -289,7 +284,6 @@ p {
 }
 
 a {
-    font-family: Gotham;
     text-decoration: none;
 }
 
