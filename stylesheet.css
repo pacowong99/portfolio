@@ -121,14 +121,17 @@ body {
 }
 
 .short {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: 70px;
-    text-align: center;
+    text-align: left;
 }
 
 .short p {
     font-weight: 300;
+    text-align: 2;
+    font-size: 16px;
+    line-height: 1.75;
 }
 
 .long {
@@ -140,8 +143,6 @@ body {
 
 .projectinfo {
     margin-top: 24px;
-    padding-left: 20%;
-    padding-right: 20%;
     text-align: left;
 }
 
