@@ -1,36 +1,36 @@
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamThin.TTF);
+    src: url(fonts/GothamThin.TTF);
     font-weight: 100;
 }
 
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamXLight.ttf);
+    src: url(fonts/GothamXLight.ttf);
     font-weight: 200;
 }
 
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamLight.OTF);
+    src: url(fonts/GothamLight.OTF);
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamMedium.ttf);
+    src: url(fonts/GothamMedium.ttf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamBold.TTF);
+    src: url(fonts/GothamBold.TTF);
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Gotham";
-    src: url(/fonts/GothamBlack.ttf);
+    src: url(fonts/GothamBlack.ttf);
     font-weight: 600;
 }
 
@@ -41,7 +41,7 @@
 }
 
 body {
-    font-family: "Gotham" sans-serif;
+    font-family: "Gotham", sans-serif;
     padding: 0;
     margin: 0;
     background-color:white;
