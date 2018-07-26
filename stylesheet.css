@@ -228,6 +228,14 @@ body {
 }
 
 
+.photo {
+    height: 600px;
+    box-shadow: 3px 3px 15px #00000069;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 h2 {
     font-size: 50px;
     color:#4a4a4a;
@@ -318,5 +326,17 @@ a {
 
     p {
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .photo {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .photo {
+        height: 300px;
     }
 }
