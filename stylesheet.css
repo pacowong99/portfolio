@@ -120,7 +120,21 @@ body {
     bottom: 0;
 }
 
+.column {
+    float: left;
+}
+
+.left {
+    width: 75%;
+}
+
+.right{
+    width: 25%;
+}
+
 .short {
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 70px;
     text-align: left;
 }
@@ -194,6 +208,7 @@ body {
 
 .roundedbtn {
     background-color: white;
+    border: rgb(196, 196, 196) 2px solid;
     color: gray;
     font-weight: 400;
     padding-top: 15px;
