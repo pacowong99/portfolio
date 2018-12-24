@@ -1,4 +1,5 @@
-@import url(./fonts.css);
+@import url(./_fonts.css);
+@import url(./_scss.css);
 
 
 :root {
@@ -28,6 +29,7 @@ body {
     padding: 0;
     background-color: var(--gray-100);
     font-family: Lato;
+    font-weight: 500;
     color: var(--gray-900);
     /* min-width: 950px; */
 }
@@ -38,7 +40,7 @@ body {
 }
 
 .header {
-    height: 128px;
+    height: 96px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 100px;
@@ -74,6 +76,7 @@ body {
 
 .link {
     margin-left: 48px;
+    color: var(--primary-900);
 }
 
 .active {
@@ -108,7 +111,7 @@ body {
 }
 
 .pi-bg {
-    background-color: rgb(124, 66, 11);
+    background-color: #7c420b;
 }
 
 .right {
@@ -122,7 +125,7 @@ body {
 }
 
 .section {
-    padding-bottom: 128px;
+    padding-top: 128px;
     height: 512px;
 
     max-width: 1300px;
@@ -174,7 +177,8 @@ body {
     transform: translateY(-50%);
 
     line-height: 1.5rem;
-    font-size: 1.125rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .section-info.right {
@@ -211,7 +215,55 @@ body {
     padding-bottom: 24px;
 }
 
-h1 {
+.profile-banner {
+    height: 384px;
+    /* background: linear-gradient(180deg, #F2DA4A 0%, #F2DB4A 55.25%, #EAD146 100%); */
+    background-image: url(./images/bg-01.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.profile-banner-img {
+    height: 384px;
+}
+
+.profile-banner-info {
+    display: inline-block;
+    top: -50%;
+    transform: translateY(50%);
+    position: relative;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.7);
+    left: 32px;
+
+}
+
+.about-me {
+    width: 50%;
+    max-width: 598px;
+}
+
+.button {
+    background-color: var(--primary-500);
+    padding: 8px 24px;
+    margin-top: 16px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray-100);
+    border-radius: 10px;
+
+    -webkit-transition: .1s ease-in-out background-color;
+    -moz-transition: .1s ease-in-out background-color;
+    -o-transition: .1s ease-in-out background-color;
+    transition: .1s ease-in-out background-color;
+}
+
+.button:hover {
+    background-color: var(--primary-600);
+}
+
+h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
@@ -226,6 +278,7 @@ a {
     transition: .2s ease-in-out border-bottom;
 
     border-bottom: transparent 1px solid;
+    text-decoration: none;
 }
 
 a:hover {
