@@ -164,28 +164,11 @@ body {
     padding-bottom: 24px;
 }
 
-.profile-banner {
-    height: 384px;
-    /* background: linear-gradient(180deg, #F2DA4A 0%, #F2DB4A 55.25%, #EAD146 100%); */
-    background-image: url(./images/bg-01.png);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-.profile-banner-img {
-    height: 384px;
-}
-
 .profile-banner-info {
-    display: inline-block;
-    top: -50%;
-    transform: translateY(50%);
-    position: relative;
+    position: absolute;
+    top: 40%;
+    right: 50%;
     text-align: right;
-    color: rgba(0, 0, 0, 0.7);
-    left: 32px;
-
 }
 
 .about-me {
@@ -202,14 +185,15 @@ body {
     color: var(--gray-100);
     border-radius: 10px;
 
-    -webkit-transition: .1s ease-in-out background-color;
-    -moz-transition: .1s ease-in-out background-color;
-    -o-transition: .1s ease-in-out background-color;
-    transition: .1s ease-in-out background-color;
+    -webkit-transition: .1s ease-in-out all;
+    -moz-transition: .1s ease-in-out all;
+    -o-transition: .1s ease-in-out all;
+    transition: .1s ease-in-out all;
 }
 
 .button:hover {
     background-color: var(--primary-600);
+    fill: var(--primary-600);
 }
 
 h1, h2, h3, h4, h5 {

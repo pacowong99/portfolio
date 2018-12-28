@@ -448,6 +448,9 @@
 .h-256 {
     height: 16rem;
 }
+.h-384 {
+    height: 24rem;
+}
 .h-512 {
     height: 32rem;
 }
@@ -484,8 +487,17 @@
 .w-256 {
     width: 16rem;
 }
+.w-384 {
+    width: 24rem;
+}
 .w-512 {
     width: 32rem;
+}
+.w-1024 {
+    width: 64rem;
+}
+.w-1280 {
+    width: 80rem;
 }
 .w-grid-1 {
     width: 8.33%;
@@ -572,6 +584,12 @@
 .max-w-lg {
     max-width: 1300px;
 }
+.max-w-full {
+    max-width: 100%;
+}
+.max-h-384 {
+    max-height: 384px;
+}
 .bg-gradient {
     background: linear-gradient(-90deg, #6CCED5 0%, #2F9FA7 100%);
 }
@@ -635,11 +653,17 @@ img {
     .sm\:w-32 {
         width: 2rem;
     }
+    .sm\:w-grid-4 {
+        width: 33.33%;
+    }
     .sm\:h-32 {
         height: 2rem;
     }
     .sm\:h-96 {
         height: 6rem;
+    }
+    .sm\:h-192 {
+        height: 12rem;
     }
     .sm\:ts-14 {
         font-size: 0.875rem;
