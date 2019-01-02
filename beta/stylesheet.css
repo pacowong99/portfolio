@@ -30,8 +30,7 @@ body {
     background-color: var(--gray-100);
     font-family: Lato;
     font-weight: 500;
-    color: var(--gray-700);
-    /* min-width: 950px; */
+    color: var(--gray-900);
 }
 
 .rectangle {
