@@ -589,6 +589,9 @@
 .text-black {
     color: var(--gray-900);
 }
+.text-dark-gray {
+    color: var(--gray-700);
+}
 .text-dark-green {
     color: var(--primary-800);
 }
@@ -600,6 +603,9 @@
 }
 .text-link, .text-green {
     color: var(--primary-600);
+}
+.high-opacity {
+    opacity: 0.9;
 }
 .max-w-sm {
     max-width: 384px;
@@ -760,59 +766,66 @@ p {
 
 @media only screen and (max-width: 992px) {
     .lg\:h-384 {
-        height: 384px;
+        height: 384px !important;
     }
     .lg\:w-grid-5 {
-        width: 41.65%;
+        width: 41.65% !important;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .md\:px-48 {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
     }
     .md\:p-left-48 {
-        padding-left: 3rem;
+        padding-left: 3rem !important;
     }
     .md\:p-right-48 {
-        padding-right: 3rem;
+        padding-right: 3rem !important;
     }
     .md\:ts-48 {
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
 }
 
 @media only screen and (max-width: 568px) {
     .sm\:p-left-8 {
-        padding-left: 0.5rem;
+        padding-left: 0.5rem !important;
+    }
+    .sm\:p-top-32 {
+        padding-top: 2rem !important;
     }
     .sm\:px-24 {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
     }
     .sm\:m-top-24 {
-        margin-top: 1.5rem;
+        margin-top: 1.5rem !important;
     }
-    .sm\:m-left-24 {
-        margin-left: 1.5rem;
+    .sm\:mx-24 {
+        margin-left: 1.5rem !important;
+        margin-right: 1.5rem !important;
     }
     .sm\:w-32 {
-        width: 2rem;
+        width: 2rem !important;
     }
     .sm\:w-grid-4 {
-        width: 33.33%;
+        width: 33.33% !important;
     }
     .sm\:h-32 {
-        height: 2rem;
+        height: 2rem !important;
     }
     .sm\:h-96 {
-        height: 6rem;
+        height: 6rem !important;
     }
     .sm\:h-192 {
-        height: 12rem;
+        height: 12rem !important;
     }
     .sm\:ts-14 {
-        font-size: 0.875rem;
+        font-size: 0.875rem !important;
+    }
+    .sm\:ts-24 {
+        font-size: 1.5rem !important;
     }
 }

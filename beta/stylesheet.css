@@ -226,9 +226,13 @@ a:hover {
     .rectangle {
         height: 400px;
     }
+
+    .profile-banner-info {
+        right: 45%;
+    }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .header {
         padding-left: 50px;
         padding-right: 50px;
@@ -245,6 +249,10 @@ a:hover {
     .section-title {
         font-size: 3rem;
         line-height: 1;
+    }
+    .profile-banner-info {
+        top: 30%;
+        right: 39%;
     }
 }
 
@@ -285,6 +293,13 @@ a:hover {
         float: inherit;
         text-align: right !important;
 
+    }
+    .profile-banner-info {
+        position: relative;
+        text-align: left;
+        left: 0;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
     }
 
     .section-hero--left {
@@ -336,5 +351,9 @@ a:hover {
     .section-desc {
         font-size: 0.875rem;
         line-height: 1.5;
+    }
+    .about-me {
+        margin: auto !important;
+        width: 90%;
     }
 }
