@@ -64,6 +64,9 @@
 .leading-normal {
     line-height: 1.5 !important;
 }
+.leading-tall {
+    line-height: 2 !important;
+}
 .m-bottom-4 {
     margin-bottom: 0.25rem !important;
 }
@@ -607,6 +610,9 @@
 .high-opacity {
     opacity: 0.9;
 }
+.max-w-xs {
+    max-width: 256px;
+}
 .max-w-sm {
     max-width: 384px;
 }
@@ -642,10 +648,8 @@
 }
 .info-card {
     height: 256px;
-    /* width: 50%;
-    margin-left: 128px; */
+    padding-top: 64px;
     position: relative;
-    top: -96px;
 }
 .no-bullet {
     list-style: none;
@@ -771,6 +775,16 @@ p {
     .lg\:w-grid-5 {
         width: 41.65% !important;
     }
+    .lg\:ts-48 {
+        font-size: 3rem !important;
+    }
+    .lg\:px-32 {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .lg\:w-grid-9 {
+        width: 75% !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -825,7 +839,13 @@ p {
     .sm\:ts-14 {
         font-size: 0.875rem !important;
     }
+    .sm\:ts-20 {
+        font-size: 1.25rem !important;
+    }
     .sm\:ts-24 {
         font-size: 1.5rem !important;
+    }
+    .sm\:ts-30 {
+        font-size: 1.875rem !important;
     }
 }
