@@ -212,7 +212,9 @@ a {
     border-bottom: transparent 1px solid;
     text-decoration: none;
 }
-
+.no-hover-underline:hover {
+    border-bottom: none !important;
+}
 a:hover {
     border-bottom: var(--primary-600) 1px solid;
 }

@@ -690,13 +690,12 @@
     box-sizing: border-box;
 }
 .image-card-contained {
-    width: 40%;
+    width: 47%;
     min-width: 16rem;
     margin-bottom: 1.5rem;
 }
 .image-container {
     background-color: var(--gray-200);
-    width: 100%;
     text-align: center;
     margin-top: 2rem;
 }
@@ -847,5 +846,12 @@ p {
     }
     .sm\:ts-30 {
         font-size: 1.875rem !important;
+    }
+    .sm\:ts-36 {
+        font-size: 2.25rem !important;
+    }
+    .sm\:name-adjust {
+        position: absolute;
+        padding-top: 40px;
     }
 }
