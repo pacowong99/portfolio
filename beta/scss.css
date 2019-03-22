@@ -43,7 +43,7 @@
 .font-black {
     font-weight: 700 !important;
 }
-.font-italic {
+.italic {
     font-style: italic !important;
 }
 .font-normal {
@@ -589,24 +589,6 @@
     vertical-align: middle;
     line-height: normal;
 }
-.text-black {
-    color: var(--gray-900);
-}
-.text-dark-gray {
-    color: var(--gray-700);
-}
-.text-dark-green {
-    color: var(--primary-800);
-}
-.text-white {
-    color: var(--gray-100);
-}
-.text-light-green {
-    color: var(--primary-200);
-}
-.text-link, .text-green {
-    color: var(--primary-600);
-}
 .high-opacity {
     opacity: 0.9;
 }
@@ -628,15 +610,7 @@
 .max-h-384 {
     max-height: 384px;
 }
-.bg-gradient {
-    background: linear-gradient(-90deg, #6CCED5 0%, #2F9FA7 100%);
-}
-.bg-dark-gradient {
-    background: linear-gradient(109.57deg, #1D767C 0%, #2F9FA7 100%);
-}
-.bg-light {
-    background-color: var(--primary-100);
-}
+
 .hero-shadow {
     -webkit-filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
@@ -701,9 +675,7 @@
 }
 .screenshot {
     height: 32rem;
-    margin: 2rem 3rem;
     border-radius: 20px;
-
 }
 .two-columns {
     column-count: 2;

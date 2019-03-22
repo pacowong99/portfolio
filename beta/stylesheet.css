@@ -1,5 +1,5 @@
 @import url(fonts.css);
-@import url(scss.css);
+/* @import url(scss.css); */
 
 
 :root {
@@ -27,10 +27,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--gray-100);
+    /* background-color: var(--gray-100); */
     font-family: Lato;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--gray-900);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .rectangle {
@@ -126,7 +128,7 @@ body {
 
     line-height: 1.5rem;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .section-info.right {
@@ -169,12 +171,113 @@ body {
     right: 50%;
     text-align: right;
 }
-
+.info-card {
+    height: 256px;
+    padding-top: 64px;
+    position: relative;
+}
+.heading {
+    margin-top: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: -webkit-gradient(linear,left top,right top,from(#42C1C9),to(#2F9FA7));
+    background: linear-gradient(to right,#42C1C9,#2F9FA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    /* font-size: 2.25rem; */
+    text-align: left;
+}
+.subheading {
+    color: var(--gray-700);
+    letter-spacing: 0.1em;
+    border-top: #C9C9C9 1px solid;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+.separator {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(-90deg, #2F9FA7 0%, #6CCED5 100%);
+    border-radius: 2px;
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-shadow {
+    -webkit-filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+.screenshot {
+    height: 32rem;
+    border-radius: 20px !important;
+}
+.clip-circle {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+.bg-gradient {
+    background: linear-gradient(-90deg, #6CCED5 0%, #2F9FA7 100%);
+}
+.bg-dark-gradient {
+    background: linear-gradient(109.57deg, #1D767C 0%, #2F9FA7 100%);
+}
+.bg-light {
+    background-color: #2F9FA7;
+}
+.bg-primary-light {
+    background-color: var(--primary-100) !important;
+}
+.bg-iu-hero {
+    background-image: url(./images/iu\ copy.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 48rem;
+}
+.text-black {
+    color: var(--gray-900);
+}
+.text-dark-gray {
+    color: var(--gray-700);
+}
+.text-dark-green {
+    color: var(--primary-800);
+}
+.text-white {
+    color: var(--gray-100);
+}
+.text-light-green {
+    color: var(--primary-200);
+}
+.text-link, .text-green {
+    color: var(--primary-600);
+}
 .about-me {
     width: 50%;
     max-width: 598px;
 }
-
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 17px 50px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+}
+.image-card {
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.image-card-contained {
+    width: 47%;
+    min-width: 16rem;
+    margin-bottom: 1.5rem;
+}
+.info-card {
+    height: 256px;
+    padding-top: 64px;
+    position: relative;
+}
 .button {
     background-color: var(--primary-500);
     padding: 8px 24px;
@@ -201,8 +304,50 @@ h1, h2, h3, h4, h5 {
 
 p {
     margin: 0;
+    line-height: 1.75;
+    color: var(--gray-700);
 }
 
+b {
+    font-weight: 500;
+    color: var(--gray-900);
+}
+ul {
+    padding-left: 0;
+    margin: 0;
+    /* padding-top: 12px; */
+    list-style: none;
+}
+ul li {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 2rem;
+    line-height: 1.5;
+}
+ol li {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+li.tick:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    top: 0.25rem;
+    left: 0;
+    position: absolute;
+    background: url(./images/bullet.svg);
+    background-repeat: no-repeat;
+}
+li.no-bullet {
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+}
+li:last-child {
+    margin-bottom: 0;
+}
+li {
+    color: var(--gray-700);
+}
 a {
     -webkit-transition: .2s ease-in-out border-bottom;
     -moz-transition: .2s ease-in-out border-bottom;
@@ -357,5 +502,8 @@ a:hover {
     .about-me {
         margin: auto !important;
         width: 90%;
+    }
+    .bg-iu-hero {
+        height: 24rem;
     }
 }
