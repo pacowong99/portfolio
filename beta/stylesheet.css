@@ -232,7 +232,7 @@ body {
     background-color: var(--primary-100) !important;
 }
 .bg-iu-hero {
-    background-image: url(./images/iu.PNG);
+    background-image: url(./images/iucropped.PNG);
     background-position: center;
     background-size: cover;
     height: 48rem;
