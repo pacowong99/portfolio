@@ -194,7 +194,6 @@ body {
     margin-top: 1.5rem;
     padding-top: 0.5rem;
     margin-bottom: 0.75rem;
-    font-size: 1rem;
 }
 .separator {
     width: 100%;
@@ -230,10 +229,6 @@ body {
 }
 .bg-primary-light {
     background-color: var(--primary-100) !important;
-}
-.bg-iu-hero {
-    background-image: url(./images/iu.PNG);
-    height: 48rem;
 }
 .bg-about {
     background-image: url(./images/profile_banner-01.png);
@@ -296,7 +291,10 @@ body {
     -o-transition: .1s ease-in-out all;
     transition: .1s ease-in-out all;
 }
-
+.iu-hero {
+    width: 32rem; 
+    margin-bottom: -12rem;
+}
 .button:hover {
     background-color: var(--primary-600);
     fill: var(--primary-600);
@@ -309,6 +307,7 @@ h1, h2, h3, h4, h5 {
 p {
     margin: 0;
     line-height: 1.75;
+    font-size: 1.125rem;
     color: var(--gray-700);
 }
 
@@ -332,10 +331,12 @@ ul li {
     position: relative;
     padding-left: 2rem;
     line-height: 1.5;
+    font-size: 1.125rem;
 }
 ol li {
     margin-bottom: 1rem;
     line-height: 1.5;
+    font-size: 1.125rem;
 }
 li.tick:before {
     content: '';
@@ -519,7 +520,8 @@ a:hover {
         margin: auto !important;
         width: 90%;
     }
-    .bg-iu-hero {
-        height: 24rem;
+    .iu-hero {
+        width: 16rem; 
+        margin-bottom: -8rem;
     }
 }
