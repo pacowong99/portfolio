@@ -233,9 +233,13 @@ body {
 }
 .bg-iu-hero {
     background-image: url(./images/iu.PNG);
+    height: 48rem;
+}
+.bg-about {
+    background-image: url(./images/profile_banner-01.png);
+    height: 18rem;
     background-position: center;
     background-size: cover;
-    height: 48rem;
 }
 .text-black {
     color: var(--gray-900);
@@ -312,6 +316,11 @@ b {
     font-weight: 500;
     color: var(--gray-900);
 }
+strong {
+    font-weight: 500;
+    color: var(--primary-600);
+}
+
 ul {
     padding-left: 0;
     margin: 0;
@@ -413,6 +422,13 @@ a:hover {
     .profile-pic {
         height: 32px;
         width: 32px;
+    }
+
+    .bg-about {
+        background-image: url(./images/profile_banner-01-sm.png);
+        height: 8rem;
+        background-position: center;
+        background-size: cover;
     }
 
     .header-text {
