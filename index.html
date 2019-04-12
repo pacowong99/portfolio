@@ -1,44 +1,76 @@
-<html> 
+<html>
     <head>
         <title>Paco Wong</title>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
 
     </head>
-    <body style="margin-left: 10%; margin-right: 10%; margin-bottom: 100px;">
-        <div class="navbar">
-            <a class="navbtn selected" href="./">WORKS</a>
-            <a class="navbtn" href="photography">PHOTOGRAPHY</a>
-            <a class="navbtn" href="about">ABOUT</a>
+    <body>
+        <div class="bg-gradient h-2"></div>
+
+        <div class="h-8 my-4 mx-auto max-w-2xl px-4 sm:px-8 sm:h-16 sm:my-8">
+            <a class="no-hover-underline" href="../">
+                <img src="./images/profile_pic.jpeg" class="clip-circle h-8 w-8 align-middle sm:h-16 sm:w-16">
+                <span class="text-black font-black tracking-wide pl-2 text-sm sm:text-2xl sm:pl-4">PACO WONG</span>        
+            </a>
+            <div class="text-sm font-normal float-right mt-2 sm:text-xl sm:mt-4">
+                <a class="text-link font-medium sm:ml-6" href="#">Works</a>
+                <a class="ml-4 sm:ml-12 text-black" href="./about">About</a>
+            </div>
         </div>
 
-        <div class="header">            
-            <h2>Paco Wong</h2>
+        <div class="section">
+            <div class="rectangle iu-bg right">
+                <img src="./images/iuhero.PNG" class="section-hero--right">
+            </div>
+            <div class="section-info left">
+                <h1 class="section-title">Indiana University<br>(Beta)</h1>
+                <p class="project-type">iOS Development & UX Design</p>
+                <p class="section-desc">I prototyped and created a beta version of the Indiana University app to improve students’ mobile experience at IU. I was hired by the User Experience Office and we are now collecting user feedback. </p>        
+                <a class="section-link" href="iumobile/">LEARN MORE ></a>
+            </div>
+
         </div>
 
+        <div class="section">
+            <div class="rectangle tedx-bg left">
+                <img src="./images/tedx.png" class="section-hero--left">
+            </div>
+            <div class="section-info right">
+                <h1 class="section-title">From Ashes We Rise</h1>
+                <p class="project-type">Branding Design</p>
+                <p class="section-desc">In Spring 2018, I joined TEDxIndianaUniversity as a productions intern, and this year, I created the official theme design for the Fall 2018 conference: From Ashes We Rise.</p>        
+                <!-- <a class="section-link">LEARN MORE ></a> -->
+            </div>
+        </div>
 
-        <div class="section" style="background-image: url('images/IU.png'); background-color: #441615;">
-            <a href="iumobile"><div class="hoverinfo">
-                <h4>Indiana University (Beta)</h4>
-                <h5>Ongoing <span style="font-weight: 500"> iOS development </span> project as a UX engineer to create a better mobile experience for students, faculty, and staff at Indiana University.</h5>
-            </div></a>
+        <div class="section">
+            <div class="rectangle pi-bg right">
+                <img src="./images/pi-01.png" class="section-hero--right">
+            </div>
+            <div class="section-info left">
+                <h1 class="section-title">People Impact</h1>
+                <p class="project-type">Branding Design</p>
+                <p class="section-desc">In Summer 2018, I interned at People Impact as Franchise Marketing Officer. During my time in People Impact, I redesigned their branding and created event merchandise to increase brand awareness.</p>        
+                <!-- <a class="section-link">LEARN MORE ></a> -->
+            </div>
+
         </div>
     
-
-        <div class="section" style="background-image: url('images/badges.png'); background-color: rgb(203, 186, 88);">
-            <a href="peopleimpact"><div class="hoverinfo">
-                <h4>People Impact</h4>
-                <h5>Ongoing <span style="font-weight: 500"> marketing </span> project of creating various marketing material for a Hong Kong-based company. <br> Designs include lanyard badges, pins, print advertisements, and more. </h5>
-            </div></a>
+        <div class="section">
+            <div class="rectangle steps-bg left">
+                <img src="./images/steps.png" class="section-hero--left">
+            </div>
+            <div class="section-info right m-bottom-128">
+                <h1 class="section-title">STEPS Magazine</h1>
+                <p class="project-type">Typesetting and Graphic Design</p>
+                <p class="section-desc">I was the Chief Typesetter of the STEPS Magazine, a 300-page yearbook sold to students, staff, and alumni. I was in charge of creating anything graphics related in this magazine, including the cover, photos, etc.  </p>        
+                <!-- <a class="section-link">LEARN MORE ></a> -->
+            </div>
         </div>
 
+        <div class="h-128"></div>
 
-        <div class="section" style="background-image: url('images/steps.png'); background-color: #0A508C;">
-            <a href="stepsmagazine"><div class="hoverinfo">
-                <h4>STEPS Magazine</h4>
-                <h5><span style="font-weight: 500">Typesetting and graphics design </span> project to create a 300-page yearbook for my high school. </h5>
-            </div></a>
-        </div> 
     </body>
 </html>
-
