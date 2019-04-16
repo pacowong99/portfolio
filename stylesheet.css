@@ -524,4 +524,13 @@ a:hover {
         width: 16rem; 
         margin-bottom: -8rem;
     }
+    p {
+        font-size: 1rem;
+    }
+    ul li {
+        font-size: 1rem;
+    }
+    ol li {
+        font-size: 1rem;
+    }
 }
