@@ -63,7 +63,12 @@ body {
 .pi-bg {
     background-color: #7c420b;
 }
-
+.photog-bg {
+    background-image: url(./images/IMG_4566.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
 .right {
     float: right;
     text-align: right;
@@ -148,7 +153,7 @@ body {
 
 .section-link {
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     letter-spacing: 0.05em;
 
     color: var(--primary-600);
