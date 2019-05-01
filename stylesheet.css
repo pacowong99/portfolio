@@ -69,6 +69,15 @@ body {
     background-position: center;
     height: 100%;
 }
+.photog-hero {
+    background-image: url(./images/photography/IMG_6589.jpg); 
+    background-size: cover; 
+    background-position: top; 
+    height: 60rem;
+}
+.photog-hero-text {
+    margin-top: 17rem;
+}
 .right {
     float: right;
     text-align: right;
@@ -511,12 +520,13 @@ a:hover {
         width: auto !important;
         margin: 0 !important;
     }
-
+    .section-info.photog {
+        top: inherit;
+    }
     .section-title {
         font-size: 1.875rem;
         line-height: 1;
     }
-
     .section-desc {
         font-size: 0.875rem;
         line-height: 1.5;
@@ -528,6 +538,12 @@ a:hover {
     .iu-hero {
         width: 16rem; 
         margin-bottom: -8rem;
+    }
+    .photog-hero {
+        height: 30rem;
+    }
+    .photog-hero-text {
+        margin-top: 10rem;
     }
     p {
         font-size: 1rem;
