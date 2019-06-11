@@ -201,6 +201,13 @@ body {
     /* font-size: 2.25rem; */
     text-align: left;
 }
+.text-gradient {
+    background: -webkit-gradient(linear,left top,right top,from(#42C1C9),to(#2F9FA7));
+    background: linear-gradient(to right,#42C1C9,#2F9FA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 .subheading {
     color: var(--gray-700);
     letter-spacing: 0.1em;
